@@ -1,13 +1,19 @@
-# Vite ReScript Template
+# Rescript + Graphql = res-ql
 
-## Getting started
+This project is sample how to create rescript project with graphql.
 
-```shell
-npx degit rescriptbr/vite-rescript-starter my-app
+## Required
 
-cd my-app
+- nodejs
+- yarn / npm
+- api in graphql
 
-npm install
-```
+## How to run
 
-or simply click on "Use this template" :)
+- clone project 
+- install dependencies with `yarn` or `npm install`
+- get schema from api graphq with: `npx get-graphql-schema -h 'x-hasura-admin-secret=*****' http://localhost:7000/v1/graphql -j > graphql_schema.json`
+- set url/headers to api in `src/Apollo.res`
+- run compile in whatch rescript: `npm run res:watch` or `yarn res:watch`
+- run dev vite server with `npm run dev` or `yarn dev`
+
