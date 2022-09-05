@@ -17,3 +17,9 @@ This project is sample how to create rescript project with graphql.
 - run compile in whatch rescript: `npm run res:watch` or `yarn res:watch`
 - run dev vite server with `npm run dev` or `yarn dev`
 
+## Roadmap
+
+- [x] connect with graphql server
+- [x] create query
+- [x] create mutation
+- [ ] create subscription
