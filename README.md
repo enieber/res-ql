@@ -22,4 +22,4 @@ This project is sample how to create rescript project with graphql.
 - [x] connect with graphql server
 - [x] create query
 - [x] create mutation
-- [ ] create subscription
+- [x] create subscription
