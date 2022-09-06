@@ -9,6 +9,7 @@ let make = () => {
   <div className="App">
     <h1>{"Bom dia"->React.string}</h1>
     <div>
+    <AddCategory />
     <Categories />
     </div>
   </div>
