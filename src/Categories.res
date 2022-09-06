@@ -1,5 +1,5 @@
 module ItemsQuery = %graphql(`
-  query ItemsQuery {
+  subscription ItemsQuery {
     hagrid_category(limit: 10) {
       id
       name
